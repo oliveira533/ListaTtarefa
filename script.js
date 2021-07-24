@@ -5,4 +5,6 @@ function fnAdiciona(){
         tTarefa = prompt('Infrome uma tarefa');
         
     }
+
+    var lLista = document.getElementById('tarefas')
 }
