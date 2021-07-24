@@ -16,7 +16,6 @@ div{
 }
 section{
     background: #0000006e;
-    width: 50%;
 }
 button{
     cursor: pointer;
@@ -25,5 +24,15 @@ button{
     color: #fff;
 
     width: 200px;
-    margin-left: 35%;
+}
+ul{
+list-style: none;
+
+    color: #fff;
+
+    margin-top: 5px;
+}
+input {
+    color: #fff;
+    cursor: pointer;
 }

@@ -1,3 +1,5 @@
+var nCont = 0;
+
 function fnAdiciona(){
     var tTarefa = prompt('Infrome uma tarefa'); // pega a tarefa
 
@@ -5,6 +7,13 @@ function fnAdiciona(){
         tTarefa = prompt('Infrome uma tarefa');
         
     }
+    if (tTarefa != null){
+        let oItem = document.createElement('LI');
+        let tTexto = document.createTextNode(tTarefa);
+        oItem.appendChild(tTexto);
+        
 
-    var lLista = document.getElementById('tarefas')
+        var lLista = document.getElementById('tarefas');
+        lLista.insertBefore(oItem, lLista.childNodes[nCont++]);
+    }
 }
