@@ -1,0 +1,29 @@
+*{
+    font-size: 25px;
+    font-family: sans-serif;
+    margin: 0;
+    border: 0;
+}
+body{
+    background: linear-gradient(#414141, #717171);
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5%;
+}
+section{
+    background: #0000006e;
+    width: 50%;
+}
+button{
+    cursor: pointer;
+
+    background: linear-gradient(45deg, red, blue);
+    color: #fff;
+
+    width: 200px;
+    margin-left: 35%;
+}
